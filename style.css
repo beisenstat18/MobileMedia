@@ -1,0 +1,397 @@
+html,body{
+
+  margin:0vmin; /*no margin*/
+  background-color: white; /*white background*/
+}
+.allcontent{
+  display:flex; /*display all content as flex*/
+  flex-direction: column; /*column*/
+  justify-content: space-between; /*everything will be vertical*/
+}
+.constantcontent{
+  position: fixed; /*the header will be fixed and always there */
+  width: 100%; /*full width of the screen*/
+  background-color: white;
+  z-index: 2; /*top layer to display over other content*/
+}
+.topborder{
+    position: flex;
+    margin:0vmin;
+
+}
+.topborder img {
+
+  width:100%; /*size*/
+  height: 1vmin;
+}
+
+.navigation{
+  display:flex;
+  justify-content: space-between; /*have all items seperated equally*/
+  align-items: flex-end;
+
+}
+.stores img{ /*store icons image formatting*/
+  height: 6vmin;
+  width:auto;
+  padding-left: .5vmin;
+
+}
+
+
+.stores{ /*store icon spacing- vertical*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.shopping{ /*store images are on top of the shopping label*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 3vmin;
+}
+.info2{
+  display: flex;
+  justify-content: center;
+  padding-right: 60vmin;
+}
+
+.button { /*make the shopping button clickable */
+
+  background-color: white;
+  color: black;
+  border:none;
+  padding: .4vmin .2px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Libre Baskerville, serif;
+  font-size: 3vmin;
+  margin: 1vmin .5vmin;
+  cursor: pointer;
+
+}
+
+.logo img{/* formatting breezy size*/
+
+  height: 15vmin;
+  width: auto;
+  padding-left: 30vmin;
+}
+
+.links{ /*formatting the shopping links space between*/
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2vmin;
+  padding-top: 4vmin;
+
+}
+.links img{
+  height: 6vmin;
+  width:auto;
+  padding-left: 1.5vmin;
+
+}
+.label { /*formatting call to action size and padding */
+  display: inline-block;
+  font-family: Libre Baskerville, serif;
+  font-size: 3vmin;
+  padding-left: 8vmin;
+  padding-top: 1vmin;
+  padding-bottom: 2vmin;
+  margin: 0px;
+}
+
+.socialmedia{ /*align social media icons on top of the call to action label*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.bottomborder img { /*design of bottom border is full width */
+  display: flex;
+  width:100%;
+  height: 1vmin;
+  padding-bottom: 0vmin;
+}
+
+.secondcontent{ /*having the book of month not be fixed, formatting with padding and justifying center*/
+  position: relative;
+  padding-top: 27vmin;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+}
+.headerpic2{
+  display: flex;
+  justify-content: center;
+}
+.headerpic2 img{
+  width:20%;
+  height: auto;
+}
+.headerpic1 img{
+  width: 30%;
+  height: auto;
+}
+.headerpic1{
+  display: flex;
+  justify-content: center;
+}
+.info2 img{
+
+  padding-left: 60vmin;
+  padding-top: 10vmin;
+
+}
+.info1 {
+  display: flex;
+  justify-content: center;
+padding-left: 5vmin;
+padding-top: 20vmin;
+
+height: 40vmin;
+width: auto;
+
+}
+.topborder1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.topborder1 img{
+  width:100%;
+  height:2vmin;
+}
+.secondcontent img{ /*formatting image */
+  width: 100vmin;
+  height: auto;
+  z-index: 1; /*first layer so goes under heading*/
+}
+.thirdcontent{ /*mosaic is flex*/
+  display: flex;
+  flex-direction: column;
+  padding-top: 15vmin;
+}
+.header{ /*header formatting*/
+  font-size: 7vmin;
+  display: flex;
+  justify-content: center;
+  font-family: Libre Baskerville, serif;
+  color: black;
+  margin: 1vmin;
+  padding-left: 2vmin;
+
+
+
+  text-align: center;
+
+}
+.row1{ /*row one aligns three books horizontally*/
+  display: flex;
+  direction: row;
+  justify-content: center;
+
+
+}
+.row1 img{ /*images in row formatting*/
+  padding-top: 5vmin;
+  width: 34vmin;
+  height: auto;
+}
+.row2 img{
+  width: 34vmin;
+  height: auto;
+}
+.row2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 10vmin;
+}
+ul { /*flex as column with no margin or padding*/
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding-left: 0vmin;
+
+}
+.experiments4 p{ /*formatting the content about books. */
+  font-family: Libre Baskerville, serif;
+  font-size: 2vmin;
+  padding-left: 1vmin;
+  padding-right: 1vmin;
+  line-height: 3vmin;
+}
+
+.experiments5 p{ /*repeating the formatting because I googled and tried joining it with above but couldn't figure out how to combine*/
+  font-family: Libre Baskerville, serif;
+  font-size: 2vmin;
+  padding-left: 1vmin;
+  padding-right: 1vmin;
+  line-height: 3vmin;
+}
+.experiments6 p{
+  font-family: Libre Baskerville, serif;
+  font-size: 2vmin;
+  padding-left: 1vmin;
+  padding-right: 1vmin;
+  line-height: 3vmin;
+}
+.experiments7 p{
+  font-family: Libre Baskerville, serif;
+  font-size: 2vmin;
+  padding-left: 1vmin;
+  padding-right: 1vmin;
+  line-height: 3vmin;
+}
+.experiments1 p{
+  font-family: Libre Baskerville, serif;
+  font-size: 2vmin;
+  padding-left: 1vmin;
+  padding-right: 1vmin;
+  line-height: 3vmin;
+}
+.experiments2 p{
+  font-family: Libre Baskerville, serif;
+  font-size: 2vmin;
+  padding-left: 1vmin;
+  padding-right: 1vmin;
+  line-height: 3vmin;
+}
+.experiments3 p{
+  font-family: Libre Baskerville, serif;
+  font-size: 2vmin;
+  padding-left: 1vmin;
+  padding-right: 1vmin;
+  line-height: 3vmin;
+}
+
+ul li {display: inline-block;} /*played around with this frmo the navigation bar page on w3schools*/
+ul li:hover {background: white;} /*background of words is white*/
+ul li:hover ul {display: flex;} /*when you hover dipslay is flex*/
+ul li ul {
+  position: absolute; /*setting box width and absoltue position*/
+  width: 34vmin;
+  display: none;
+  justify-content: center;
+}
+ul li ul li {
+  background: white;
+
+}
+ul li ul li a {display:block !important;}
+ul li ul li:hover {background: white;}
+.fourthcontent{
+  display: flex;
+  flex-direction: column; /*formatting the paragraphs and header in a column instead of vertical*/
+  justify-content: center;
+
+
+
+}
+.words2{
+  font-family: Libre Baskerville, serif; /*formatting the about section and sizing*/
+  font-size: 3vmin;
+  padding-top: 5vmin;
+  padding-left: 30vmin;
+  padding-right: 30vmin;
+  line-height: 6vmin;
+}
+.graph{
+  display: flex;
+  justify-content: center ;
+}
+.explanation{ /*formatting explanation*/
+  display: flex;
+  justify-content: center ;
+}
+.graph img{ /*graph image formatting*/
+  padding-top: 10vmin;
+
+  width: 150vmin;
+  height: auto;
+}
+.explanation img{  /*graphbooks formatting*/
+  padding-top: 10vmin;
+  width: 150vmin;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+
+  .navigation{
+    display: flex;
+
+  }
+  .topborder img{
+    width:100%;
+    height: .5vmin;
+  }
+
+  .bottomborder img{
+    width:100%;
+    height: .5vmin;
+  }
+  .topborder1{
+    display: flex;
+  }
+  .topborder1 img{
+    width:100%;
+    height:.5vmin;
+  }
+  .logo img{
+    height:40px;
+    width:auto;
+  }
+  .logo {
+    justify-content: center;
+    padding-left: .2vmin;
+  }
+
+  .stores img{
+    height:20px;
+    width:auto;
+  }
+  .links img{
+    height: 20px;
+    width: auto;
+  }
+  .links {
+    display: flex;
+    padding-right: 1vmin;
+    justify-content: space-between;
+  }
+  .label{
+  font-size: 1.5vmin;
+  }
+  .button{
+  font-size: 1.5vmin;
+  }
+  .info1{
+    display: flex;
+    padding-left: 2vmin;
+    padding-top: 1vmin;
+    line-height: 9vmin;
+    font-size: 2vmin;
+  }
+  .info2 img{
+    height:450px;
+    width:auto;
+    padding-left: 60vmin;
+    padding-right: 0vmin;
+  }
+  .words2{
+    font-size: 2vmin;
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+    line-height: 8vmin;
+  }
+  .explanation img{
+    height: 200px;
+    width: auto;
+  }
+  .graph img {
+    height: 200px;
+    width: auto;
+  }
+}
